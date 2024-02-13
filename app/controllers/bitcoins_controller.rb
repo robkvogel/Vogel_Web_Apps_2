@@ -3,10 +3,7 @@ class BitcoinsController < ApplicationController
   def index
     # add backend code
     # render bitcoins/index view
-    
-    puts "_______"
-    params["amount"]
-    puts "_____"
+
 
     #Params helps you access data provided by user in window
     @bitcoin = params["amount"]
