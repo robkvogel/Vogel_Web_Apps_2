@@ -4,9 +4,11 @@
 <ul>
   <% for company in @companies %>
     <li>
-    <a href="/companies/<%= company["id"]%> "
-    </a>
-      <%= company["name"] %>
+    <a href="/companies/<%=company["id"]%>"> 
+      <%= company["name"] %> 
+      </a>
     </li>
   <% end %>
 </ul>
+
+<a href=""></a>
